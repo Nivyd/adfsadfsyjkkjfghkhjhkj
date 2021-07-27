@@ -3,3 +3,5 @@ local args = {
 } 
 
 game:GetService("Players").LocalPlayer.ninjaEvent:FireServer(unpack(args))
+wait()
+end
